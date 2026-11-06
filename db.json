@@ -1,0 +1,559 @@
+{
+  "products": [
+    {
+      "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500",
+      "name": "Echo Buckner",
+      "category": "Electronics",
+      "rating": "3",
+      "price": 353,
+      "oldPrice": 857,
+      "productType": "Featured Product",
+      "id": "gBMeMh1Mn68"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500",
+      "name": "Veda Todd",
+      "category": "Footwear",
+      "rating": "3.5",
+      "price": 921,
+      "oldPrice": 917,
+      "productType": "Featured Product",
+      "id": "wK3J_eUAMKo"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?w=500",
+      "name": "Juliet Harding",
+      "category": "Accessories",
+      "rating": "4.5",
+      "price": 646,
+      "oldPrice": 778,
+      "productType": "Featured Product",
+      "id": "Sq5OckWkOFM"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500",
+      "name": "Kasimir Frye",
+      "category": "Electronics",
+      "rating": "5",
+      "price": 77,
+      "oldPrice": 35,
+      "productType": "Featured Product",
+      "id": "wK9XwDfzqoc"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?w=500",
+      "name": "Clementine Dillard",
+      "category": "Footwear",
+      "rating": "3",
+      "price": 87,
+      "oldPrice": 307,
+      "productType": "Featured Product",
+      "id": "2Myhz4x3iNQ"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500",
+      "name": "Lara Nichols",
+      "category": "Accessories",
+      "rating": "3.5",
+      "price": 59,
+      "oldPrice": 580,
+      "productType": "Featured Product",
+      "id": "0iCQhT2iD6Y"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=500",
+      "name": "Valentine Lynn",
+      "category": "Fashion",
+      "rating": "5",
+      "price": 191,
+      "oldPrice": 833,
+      "productType": "Featured Product",
+      "id": "WomiTdZ9iWM"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=500",
+      "name": "Adara Atkinson",
+      "category": "Accessories",
+      "rating": "5",
+      "price": 868,
+      "oldPrice": 50,
+      "productType": "Featured Product",
+      "id": "n-J8Dmk2yc0"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+      "name": "Alan Fry",
+      "category": "Electronics",
+      "rating": "4.5",
+      "price": 692,
+      "oldPrice": 494,
+      "productType": "Featured Product",
+      "id": "JMVg4SyM8zY"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=500",
+      "name": "Darius Ruiz",
+      "category": "Footwear",
+      "rating": "4.5",
+      "price": 352,
+      "oldPrice": 290,
+      "productType": "Featured Product",
+      "id": "tbQ9z8DAwik"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=500",
+      "name": "Sydney Delacruz",
+      "category": "Accessories",
+      "rating": "4",
+      "price": 34,
+      "oldPrice": 104,
+      "productType": "Featured Product",
+      "id": "TFDNWW2i9jU"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=500",
+      "name": "Lilah Fields",
+      "category": "Electronics",
+      "rating": "4",
+      "price": 1,
+      "oldPrice": 379,
+      "productType": "Featured Product",
+      "id": "Fg88rnJOmcQ"
+    }
+  ],
+  "newArrivals": [
+    {
+      "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=500",
+      "name": "Aline Ball",
+      "category": "Accessories",
+      "rating": "3",
+      "price": 869,
+      "oldPrice": 955,
+      "productType": "New Arrival",
+      "id": "MRDqj632GN0"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?w=500",
+      "name": "Karleigh Pruitt",
+      "category": "Footwear",
+      "rating": "4",
+      "price": 612,
+      "oldPrice": 422,
+      "productType": "New Arrival",
+      "id": "1DnmnrvDnIM"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500",
+      "name": "David Bradley",
+      "category": "Electronics",
+      "rating": "5",
+      "price": 706,
+      "oldPrice": 4,
+      "productType": "New Arrival",
+      "id": "fC6mNQVupg4"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500",
+      "name": "Lavinia Holloway",
+      "category": "Electronics",
+      "rating": "4.5",
+      "price": 133,
+      "oldPrice": 894,
+      "productType": "New Arrival",
+      "id": "eDdRcWvmWlg"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500",
+      "name": "Lars Knapp",
+      "category": "Footwear",
+      "rating": "4.5",
+      "price": 44,
+      "oldPrice": 201,
+      "productType": "New Arrival",
+      "id": "8vfuEjW4Uk8"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+      "name": "Macey Vang",
+      "category": "Fashion",
+      "rating": "3.5",
+      "price": 965,
+      "oldPrice": 536,
+      "productType": "New Arrival",
+      "id": "MZPIiTcVF6M"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500",
+      "name": "Jordan Chase",
+      "category": "Footwear",
+      "rating": "3",
+      "price": 65,
+      "oldPrice": 334,
+      "productType": "New Arrival",
+      "id": "r-NsNVUrkGA"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=500",
+      "name": "Malcolm Mcgowan",
+      "category": "Fashion",
+      "rating": "3",
+      "price": 511,
+      "oldPrice": 246,
+      "productType": "New Arrival",
+      "id": "YQm2CW-Za9k"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=500",
+      "name": "Kato Butler",
+      "category": "Electronics",
+      "rating": "4.5",
+      "price": 37,
+      "oldPrice": 71,
+      "productType": "New Arrival",
+      "id": "8zcIu7ISSEo"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?w=500",
+      "name": "Amity Moran",
+      "category": "Electronics",
+      "rating": "4",
+      "price": 387,
+      "oldPrice": 438,
+      "productType": "New Arrival",
+      "id": "9rtnaysLJx0"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500",
+      "name": "Lareina Dale",
+      "category": "Accessories",
+      "rating": "3",
+      "price": 544,
+      "oldPrice": 512,
+      "productType": "New Arrival",
+      "id": "GSdtCxRIrls"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=500",
+      "name": "Jorden Mclaughlin",
+      "category": "Electronics",
+      "rating": "3",
+      "price": 395,
+      "oldPrice": 7,
+      "productType": "New Arrival",
+      "id": "aXtHoqSS-RQ"
+    }
+  ],
+  "accessories": [
+    {
+      "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=500",
+      "name": "Aline Ball",
+      "category": "Accessories",
+      "rating": "3",
+      "price": 869,
+      "oldPrice": 955,
+      "productType": "New Arrival",
+      "id": "MRDqj632GN0"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+      "name": "Curran Roberts",
+      "category": "Electronics",
+      "rating": "4.5",
+      "price": 882,
+      "oldPrice": 884,
+      "id": "6maAbGlJGNU"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=500",
+      "name": "Kimberly Watkins",
+      "category": "Footwear",
+      "rating": "3.5",
+      "price": 733,
+      "oldPrice": 598,
+      "productType": "New Arrival",
+      "id": "fA3Pu2fJphw"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=500",
+      "name": "Shoshana Horton",
+      "category": "Fashion",
+      "rating": "3",
+      "price": 434,
+      "oldPrice": 727,
+      "productType": "New Arrival",
+      "id": "KVlv5E05ybM"
+    }
+  ],
+  "complain": [
+    {
+      "fullname": "Rahim",
+      "email": "rahim@gmail.com",
+      "subject": "Late Delivery",
+      "message": "My product has not arrived yet.",
+      "id": "iWLN2p6OK0s"
+    },
+    {
+      "fullname": "Breanna Quinn",
+      "email": "ganybujuc@mailinator.com",
+      "subject": "Facere aliquip praes",
+      "message": "Omnis do ipsum volu",
+      "id": "V5g5-L3j2Vo"
+    },
+    {
+      "fullname": "Neville Gill",
+      "email": "xosyrat@mailinator.com",
+      "subject": "Perspiciatis error",
+      "message": "Voluptatem quia qui",
+      "id": "di3uOc27LF8"
+    },
+    {
+      "fullname": "Serena Pittman",
+      "email": "mymop@mailinator.com",
+      "subject": "Ea sit rerum quod ex",
+      "message": "Expedita cupiditate",
+      "id": "AQ5taCYnuvA"
+    },
+    {
+      "fullname": "Rogan Cruz",
+      "email": "sodadisemu@mailinator.com",
+      "subject": "Neque veritatis blan",
+      "message": "Reprehenderit saepe",
+      "id": "1DnubtTclvk"
+    },
+    {
+      "fullname": "Murphy Reid",
+      "email": "nody@mailinator.com",
+      "subject": "Est vitae maiores s",
+      "message": "Accusantium veniam",
+      "id": "8LyXErXFug8"
+    },
+    {
+      "fullname": "Raphael Soto",
+      "email": "woxesebi@mailinator.com",
+      "subject": "Deserunt irure et mi",
+      "message": "Earum autem consecte",
+      "id": "uvIgWCs2-bA"
+    }
+  ],
+  "order": [
+    {
+      "fullname": "Yvette Thornton",
+      "phone": "+1 (477) 596-2504",
+      "email": "wipuga@mailinator.com",
+      "address": "Repudiandae molestia",
+      "deliveryArea": "Outside Dhaka",
+      "paymentMethod": "Cash on Delivery",
+      "products": [
+        {
+          "productId": "Sq5OckWkOFM",
+          "productQuantity": 3,
+          "image": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?w=500"
+        },
+        {
+          "productId": "wK3J_eUAMKo",
+          "productQuantity": 4,
+          "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500"
+        },
+        {
+          "productId": "TFDNWW2i9jU",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=500"
+        },
+        {
+          "productId": "tbQ9z8DAwik",
+          "productQuantity": 3,
+          "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=500"
+        },
+        {
+          "productId": "JMVg4SyM8zY",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500"
+        }
+      ],
+      "totalPrice": 7404,
+      "orderDate": "06 Nov 2026, 07:00 pm",
+      "status": "Pending",
+      "id": "pzgEpSDQqHA"
+    },
+    {
+      "fullname": "Wing Calhoun",
+      "phone": "+1 (489) 707-4232",
+      "email": "tedyvesud@mailinator.com",
+      "address": "Consequatur Duis no",
+      "deliveryArea": "Inside Dhaka",
+      "paymentMethod": "Cash on Delivery",
+      "products": [
+        {
+          "productId": "aXtHoqSS-RQ",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=500"
+        },
+        {
+          "productId": "GSdtCxRIrls",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500"
+        },
+        {
+          "productId": "9rtnaysLJx0",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?w=500"
+        }
+      ],
+      "totalPrice": 1326,
+      "orderDate": "06 Nov 2026, 07:17 pm",
+      "status": "Pending",
+      "id": "BfMAiIvZWh0"
+    },
+    {
+      "fullname": "Lillith Blanchard",
+      "phone": "+1 (711) 959-9617",
+      "email": "mygiwygu@mailinator.com",
+      "address": "Beatae dolor laborum",
+      "deliveryArea": "Inside Dhaka",
+      "paymentMethod": "Cash on Delivery",
+      "products": [
+        {
+          "productId": "WomiTdZ9iWM",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=500"
+        },
+        {
+          "productId": "0iCQhT2iD6Y",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500"
+        }
+      ],
+      "totalPrice": 250,
+      "orderDate": "06 Nov 2026, 07:23 pm",
+      "status": "Pending",
+      "id": "uPnbx2EHf5Y"
+    },
+    {
+      "fullname": "Leah Mccray",
+      "phone": "+1 (975) 464-8175",
+      "email": "lomacup@mailinator.com",
+      "address": "Dolor tenetur sed of",
+      "deliveryArea": "Inside Dhaka",
+      "paymentMethod": "Cash on Delivery",
+      "products": [
+        {
+          "productId": "aXtHoqSS-RQ",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=500"
+        },
+        {
+          "productId": "GSdtCxRIrls",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500"
+        },
+        {
+          "productId": "r-NsNVUrkGA",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500"
+        },
+        {
+          "productId": "MZPIiTcVF6M",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500"
+        },
+        {
+          "productId": "8vfuEjW4Uk8",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+        }
+      ],
+      "totalPrice": 2013,
+      "orderDate": "06 Nov 2026, 07:25 pm",
+      "status": "Pending",
+      "id": "fQAENKY4dBk"
+    },
+    {
+      "fullname": "Buckminster Hewitt",
+      "phone": "+1 (439) 864-7219",
+      "email": "hixugy@mailinator.com",
+      "address": "Dolor ut at et do re",
+      "deliveryArea": "Outside Dhaka",
+      "paymentMethod": "Cash on Delivery",
+      "products": [
+        {
+          "productId": "Sq5OckWkOFM",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?w=500"
+        },
+        {
+          "productId": "wK3J_eUAMKo",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500"
+        }
+      ],
+      "totalPrice": 1567,
+      "orderDate": "06 Nov 2026, 07:31 pm",
+      "status": "Pending",
+      "id": "4gosNrdDq1U"
+    },
+    {
+      "fullname": "Buckminster Valentine",
+      "phone": "+1 (942) 577-2717",
+      "email": "lodivice@mailinator.com",
+      "address": "Fugiat consequatur",
+      "deliveryArea": "Outside Dhaka",
+      "paymentMethod": "Cash on Delivery",
+      "products": [
+        {
+          "productId": "gBMeMh1Mn68",
+          "productQuantity": 3,
+          "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+        },
+        {
+          "productId": "wK3J_eUAMKo",
+          "productQuantity": 4,
+          "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500"
+        },
+        {
+          "productId": "Sq5OckWkOFM",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?w=500"
+        },
+        {
+          "productId": "0iCQhT2iD6Y",
+          "productQuantity": 4,
+          "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500"
+        }
+      ],
+      "totalPrice": 5625,
+      "orderDate": "06 Nov 2026, 07:32 pm",
+      "status": "Pending",
+      "id": "TkVW56nIaac"
+    },
+    {
+      "fullname": "Christian Hale",
+      "phone": "+1 (133) 454-5652",
+      "email": "boges@mailinator.com",
+      "address": "Consequat Ex ullam ",
+      "deliveryArea": "Outside Dhaka",
+      "paymentMethod": "Cash on Delivery",
+      "products": [
+        {
+          "productId": "Sq5OckWkOFM",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?w=500"
+        },
+        {
+          "productId": "wK3J_eUAMKo",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500"
+        },
+        {
+          "productId": "gBMeMh1Mn68",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+        }
+      ],
+      "totalPrice": 1920,
+      "orderDate": "06 Nov 2026, 11:15 pm",
+      "status": "Pending",
+      "id": "Jnmc6B3zVZM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

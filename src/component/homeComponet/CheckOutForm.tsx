@@ -63,7 +63,6 @@ export default function CheckOutForm() {
     const {
         register,
         handleSubmit,
-        reset,
         formState: { errors, isSubmitting },
     } = useForm<FormValues>({
         resolver: zodResolver(schema),
@@ -103,7 +102,7 @@ export default function CheckOutForm() {
             toast.error("Order isn't Placed");
         }
 
-        reset();
+        document.querySelector("form")?.reset();
     };
 
     useEffect(() => {

@@ -669,6 +669,35 @@
       "orderDate": "07 Nov 2026, 10:38 am",
       "status": "Pending",
       "id": "3UqLBaSc_lg"
+    },
+    {
+      "fullname": "Leilani Snider",
+      "phone": "+1 (124) 237-4723",
+      "email": "pyhef@mailinator.com",
+      "address": "Aliquid nisi amet s",
+      "deliveryArea": "Inside Dhaka",
+      "paymentMethod": "Cash on Delivery",
+      "products": [
+        {
+          "productId": "wK9XwDfzqoc",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500"
+        },
+        {
+          "productId": "Sq5OckWkOFM",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?w=500"
+        },
+        {
+          "productId": "wK3J_eUAMKo",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500"
+        }
+      ],
+      "totalPrice": 1644,
+      "orderDate": "07 Nov 2026, 06:04 pm",
+      "status": "Pending",
+      "id": "bsF21ieCxd4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

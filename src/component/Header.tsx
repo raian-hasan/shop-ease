@@ -15,7 +15,7 @@ import {
     FaImages,
     FaEnvelope
 } from "react-icons/fa";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import { useCart } from "../../data/data.store";
 
 const Header = () => {
@@ -35,9 +35,9 @@ const Header = () => {
                 <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
                     {/* Logo */}
-                    <div className="text-2xl font-bold text-indigo-600 cursor-pointer">
+                    <Link to={"/"} className="text-2xl font-bold text-indigo-600 cursor-pointer">
                         Shop<span className="text-gray-800">Ease</span>
-                    </div>
+                    </Link>
 
                     {/* Nav buttons */}
                     <nav className="hidden lg:flex items-center gap-8">

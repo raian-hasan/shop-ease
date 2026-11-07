@@ -1,6 +1,20 @@
 
 import { useEffect, useState } from "react";
-import { FaHeart, FaShoppingCart, FaSearch, FaTrash, FaUserCircle, FaBars, FaTimes, FaHome, FaChevronRight, FaShoppingBag, FaThLarge, FaImages, FaEnvelope } from "react-icons/fa";
+import {
+    FaHeart,
+    FaShoppingCart,
+    FaSearch,
+    FaTrash,
+    FaUserCircle,
+    FaBars,
+    FaTimes,
+    FaHome,
+    FaChevronRight,
+    FaShoppingBag,
+    FaThLarge,
+    FaImages,
+    FaEnvelope
+} from "react-icons/fa";
 import { NavLink } from "react-router";
 import { AnimatePresence, motion } from "motion/react";
 import { useCart } from "../../data/data.store";
@@ -32,6 +46,7 @@ const Header = () => {
 
     return (
         <>
+            {/* Header */}
             <header className="w-full bg-white shadow-md sticky top-0 z-50">
                 <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
@@ -43,6 +58,7 @@ const Header = () => {
                     {/* Nav buttons */}
                     <nav className="hidden lg:flex items-center gap-8">
                         <ul className="flex items-center gap-8">
+
                             <li>
                                 <NavLink to="/" className={({ isActive }) =>
                                     `font-medium hover:text-indigo-600 transition-colors duration-200 ${isActive ? "font-bold text-indigo-600" : "text-gray-700"}`
@@ -82,6 +98,7 @@ const Header = () => {
                                     Contact
                                 </NavLink>
                             </li>
+
                         </ul>
                     </nav>
 
@@ -98,6 +115,7 @@ const Header = () => {
                             `relative text-xl transition-colors duration-200 ${isActive ? "text-red-500" : "text-gray-700 hover:text-red-500"}`
                         }>
                             <FaHeart />
+
                             <span className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] font-bold w-4 h-4 flex items-center justify-center rounded-full">
                                 {favorite.length}
                             </span>
@@ -111,6 +129,7 @@ const Header = () => {
                                 }`}
                         >
                             <FaShoppingCart />
+
                             <span className="absolute -top-2 -right-2 bg-indigo-600 text-white text-[10px] font-bold w-4 h-4 flex items-center justify-center rounded-full">
                                 {cart.length}
                             </span>
@@ -139,24 +158,49 @@ const Header = () => {
                 </div>
             </header>
 
-            {/* Floating Cart Button */}
+            {/* Responsive Floating Cart Button */}
             <AnimatePresence>
                 {showFloatingCart && !cartOpen && (
                     <motion.button
-                        initial={{ opacity: 0, x: 80, scale: 0.7 }}
-                        animate={{ opacity: 1, x: 0, scale: 1 }}
-                        exit={{ opacity: 0, x: 80, scale: 0.7 }}
+                        initial={{ opacity: 0, scale: 0.7 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        exit={{ opacity: 0, scale: 0.7 }}
                         transition={{
                             duration: 0.4,
                             ease: "easeOut",
                         }}
                         onClick={() => setCartOpen(true)}
                         aria-label="Open cart"
-                        className="fixed right-5 top-1/2 -translate-y-1/2 z-[55] w-14 h-14 flex items-center justify-center rounded-full bg-indigo-600 text-white text-xl shadow-xl shadow-indigo-300 hover:bg-indigo-700 transition-colors duration-300"
+                        className="
+                            fixed right-2 sm:right-3 lg:right-5
+                            top-1/2 -translate-y-1/2
+                            z-[55]
+                            w-10 h-10
+                            sm:w-11 sm:h-11
+                            lg:w-14 lg:h-14
+                            flex items-center justify-center
+                            rounded-full
+                            bg-indigo-600 text-white
+                            text-base sm:text-lg lg:text-xl
+                            shadow-lg shadow-indigo-300
+                            hover:bg-indigo-700
+                            transition-colors duration-300
+                        "
                     >
                         <FaShoppingCart />
 
-                        <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold w-6 h-6 flex items-center justify-center rounded-full border-2 border-white">
+                        <span className="
+                            absolute -top-1 -right-1
+                            w-4 h-4
+                            sm:w-5 sm:h-5
+                            lg:w-6 lg:h-6
+                            flex items-center justify-center
+                            rounded-full
+                            bg-red-500 text-white
+                            text-[9px] sm:text-[10px] lg:text-xs
+                            font-bold
+                            border-2 border-white
+                        ">
                             {cart.length}
                         </span>
                     </motion.button>
@@ -274,11 +318,13 @@ const Header = () => {
                 className={`fixed top-0 right-0 h-full duration-300 ease-in-out w-full ${cartOpen ? "translate-x-0" : "translate-x-full"} max-w-md bg-white z-50 shadow-2xl flex flex-col`}
                 aria-label="Shopping cart"
             >
+
                 {/* Header */}
                 <div className="flex items-center justify-between px-6 py-5 border-b border-gray-200">
                     <h2 className="text-xl font-bold text-gray-900 flex items-center gap-2">
                         <FaShoppingCart className="text-indigo-600" />
                         Your Cart
+
                         <span className="text-sm font-semibold bg-indigo-100 text-indigo-600 px-2 py-0.5 rounded-full">
                             {cart.length}
                         </span>
@@ -366,12 +412,12 @@ const Header = () => {
                 {/* Footer: summary and checkout */}
                 <div className="border-t border-gray-200 px-6 py-5 space-y-4">
 
-                    {/* Divider */}
                     <div className="border-t border-gray-200" />
 
                     {/* Total */}
                     <div className="flex items-center justify-between">
                         <span className="text-base font-bold text-gray-900">Total</span>
+
                         <span className="text-base font-bold text-indigo-600">
                             ${totalPrice.toFixed(2)}
                         </span>
@@ -396,6 +442,7 @@ const Header = () => {
                         <FaShoppingCart className="text-sm" />
                         Continue Shopping
                     </button>
+
                 </div>
             </aside>
         </>

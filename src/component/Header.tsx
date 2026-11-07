@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {
     FaHeart,
     FaShoppingCart,
@@ -16,33 +16,17 @@ import {
     FaEnvelope
 } from "react-icons/fa";
 import { NavLink } from "react-router";
-import { AnimatePresence, motion } from "motion/react";
 import { useCart } from "../../data/data.store";
 
 const Header = () => {
     const [cartOpen, setCartOpen] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
-    const [showFloatingCart, setShowFloatingCart] = useState(false);
 
     const { cart, favorite, delCartItem, inCrement, deCremnet } = useCart();
 
     const totalPrice = cart.reduce((total, current) => {
         return total + current.price * current.quantity;
     }, 0);
-
-    useEffect(() => {
-        window.scrollTo(0, 0);
-
-        const handleScroll = () => {
-            setShowFloatingCart(window.scrollY > 200);
-        };
-
-        window.addEventListener("scroll", handleScroll);
-
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
 
     return (
         <>
@@ -125,8 +109,7 @@ const Header = () => {
                         <button
                             onClick={() => setCartOpen(true)}
                             aria-label="Open cart"
-                            className={`relative text-gray-700 text-xl hover:text-indigo-600 transition-all duration-300 ${showFloatingCart ? "opacity-0 pointer-events-none" : "opacity-100"
-                                }`}
+                            className="relative text-gray-700 text-xl hover:text-indigo-600 transition-all duration-300"
                         >
                             <FaShoppingCart />
 
@@ -157,55 +140,6 @@ const Header = () => {
                     </div>
                 </div>
             </header>
-
-            {/* Responsive Floating Cart Button */}
-            <AnimatePresence>
-                {showFloatingCart && !cartOpen && (
-                    <motion.button
-                        initial={{ opacity: 0, scale: 0.7 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        exit={{ opacity: 0, scale: 0.7 }}
-                        transition={{
-                            duration: 0.4,
-                            ease: "easeOut",
-                        }}
-                        onClick={() => setCartOpen(true)}
-                        aria-label="Open cart"
-                        className="
-                            fixed right-2 sm:right-3 lg:right-5
-                            top-1/2 -translate-y-1/2
-                            z-[55]
-                            w-10 h-10
-                            sm:w-11 sm:h-11
-                            lg:w-14 lg:h-14
-                            flex items-center justify-center
-                            rounded-full
-                            bg-indigo-600 text-white
-                            text-base sm:text-lg lg:text-xl
-                            shadow-lg shadow-indigo-300
-                            hover:bg-indigo-700
-                            transition-colors duration-300
-                        "
-                    >
-                        <FaShoppingCart />
-
-                        <span className="
-                            absolute -top-1 -right-1
-                            w-4 h-4
-                            sm:w-5 sm:h-5
-                            lg:w-6 lg:h-6
-                            flex items-center justify-center
-                            rounded-full
-                            bg-red-500 text-white
-                            text-[9px] sm:text-[10px] lg:text-xs
-                            font-bold
-                            border-2 border-white
-                        ">
-                            {cart.length}
-                        </span>
-                    </motion.button>
-                )}
-            </AnimatePresence>
 
             {/* Sidebar Overlay */}
             <div className={`fixed inset-0 duration-300 ease-in-out z-[60] ${menuOpen ? "translate-x-0" : "translate-x-full"}`}>

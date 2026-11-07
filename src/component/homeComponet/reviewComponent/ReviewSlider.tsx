@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 const Slider = (SlickSlider as { default?: typeof SlickSlider }).default ?? SlickSlider;
 
 export default function ReviewSlider() {
-
     const settings = {
         dots: true,
         infinite: true,
@@ -18,9 +17,10 @@ export default function ReviewSlider() {
         pauseOnHover: true,
         arrows: true,
         initialSlide: 0,
+
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1280,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
@@ -28,7 +28,7 @@ export default function ReviewSlider() {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 1024,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,

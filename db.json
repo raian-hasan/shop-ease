@@ -553,6 +553,122 @@
       "orderDate": "06 Nov 2026, 11:15 pm",
       "status": "Pending",
       "id": "Jnmc6B3zVZM"
+    },
+    {
+      "fullname": "Steel Vega",
+      "phone": "+1 (764) 112-8029",
+      "email": "sexuj@mailinator.com",
+      "address": "Deleniti ut molestia",
+      "deliveryArea": "Inside Dhaka",
+      "paymentMethod": "Cash on Delivery",
+      "products": [
+        {
+          "productId": "wK3J_eUAMKo",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500"
+        },
+        {
+          "productId": "Sq5OckWkOFM",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?w=500"
+        },
+        {
+          "productId": "gBMeMh1Mn68",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+        }
+      ],
+      "totalPrice": 1920,
+      "orderDate": "07 Nov 2026, 12:36 am",
+      "status": "Pending",
+      "id": "Md8xtPD7sa4"
+    },
+    {
+      "fullname": "Orla Bass",
+      "phone": "+1 (496) 298-5963",
+      "email": "cetagar@mailinator.com",
+      "address": "Et assumenda invento",
+      "deliveryArea": "Outside Dhaka",
+      "paymentMethod": "Cash on Delivery",
+      "products": [
+        {
+          "productId": "Sq5OckWkOFM",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?w=500"
+        },
+        {
+          "productId": "wK9XwDfzqoc",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500"
+        },
+        {
+          "productId": "wK3J_eUAMKo",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500"
+        }
+      ],
+      "totalPrice": 1644,
+      "orderDate": "07 Nov 2026, 12:37 am",
+      "status": "Pending",
+      "id": "fYyywy9Sn2k"
+    },
+    {
+      "fullname": "Eugenia Knapp",
+      "phone": "+1 (328) 359-5801",
+      "email": "tosi@mailinator.com",
+      "address": "Non quam qui dolor c",
+      "deliveryArea": "Inside Dhaka",
+      "paymentMethod": "Cash on Delivery",
+      "products": [
+        {
+          "productId": "wK3J_eUAMKo",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500"
+        },
+        {
+          "productId": "Sq5OckWkOFM",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?w=500"
+        }
+      ],
+      "totalPrice": 1567,
+      "orderDate": "07 Nov 2026, 12:40 am",
+      "status": "Pending",
+      "id": "wSZtqaFxpMM"
+    },
+    {
+      "fullname": "Grant Randall",
+      "phone": "+1 (254) 485-7386",
+      "email": "didycibifo@mailinator.com",
+      "address": "Sit voluptatem Labo",
+      "deliveryArea": "Outside Dhaka",
+      "paymentMethod": "Cash on Delivery",
+      "products": [
+        {
+          "productId": "Sq5OckWkOFM",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?w=500"
+        },
+        {
+          "productId": "wK9XwDfzqoc",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500"
+        },
+        {
+          "productId": "wK3J_eUAMKo",
+          "productQuantity": 5,
+          "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500"
+        },
+        {
+          "productId": "gBMeMh1Mn68",
+          "productQuantity": 1,
+          "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+        }
+      ],
+      "totalPrice": 5681,
+      "orderDate": "07 Nov 2026, 10:38 am",
+      "status": "Pending",
+      "id": "3UqLBaSc_lg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

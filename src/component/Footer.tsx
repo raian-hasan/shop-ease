@@ -120,7 +120,7 @@ const Footer = () => {
             {/* Bottom bar */}
             <div className="border-t border-gray-800">
                 <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-gray-500">
-                    <p>© 2026 ShopEase. All rights reserved.</p>
+                    <p>© 2026 ShopEase. Designed by Raian Hasan.</p>
                     <div className="flex items-center gap-4">
                         <button className="hover:text-indigo-400 transition-colors duration-200">Privacy</button>
                         <button className="hover:text-indigo-400 transition-colors duration-200">Terms</button>

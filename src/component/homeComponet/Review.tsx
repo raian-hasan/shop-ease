@@ -6,9 +6,9 @@ export default function Review() {
     return (
         <>
             {/* Customer Reviews Section */}
-            <section className="bg-gray-50 py-20 px-6">
+            <section className="bg-gray-50 py-20 px-6 overflow-hidden">
 
-                <div className="max-w-7xl mx-auto">
+                <div className="max-w-7xl mx-auto w-full min-w-0">
 
                     {/* Section Header */}
                     <motion.div
@@ -42,6 +42,7 @@ export default function Review() {
                             delay: 0.2,
                             ease: "easeOut",
                         }}
+                        className="w-full min-w-0 overflow-hidden"
                     >
                         <ReviewSlider />
                     </motion.div>

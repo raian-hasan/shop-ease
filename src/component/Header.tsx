@@ -249,8 +249,7 @@ const Header = () => {
 
             {/* Side slide cart panel */}
             <aside
-                className={`fixed top-0 right-0 h-full duration-300 ease-in-out w-full ${cartOpen ? "translate-x-0" : "translate-x-full"} max-w-md bg-white z-50 shadow-2xl flex flex-col`}
-                aria-label="Shopping cart"
+                className={`fixed top-0 right-0 h-full duration-300 ease-in-out w-[85%] sm:w-[380px] ${cartOpen ? "translate-x-0" : "translate-x-full"} bg-white z-50 shadow-2xl flex flex-col`}
             >
 
                 {/* Header */}

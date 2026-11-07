@@ -218,18 +218,7 @@ const Header = () => {
                         </ul>
                     </nav>
 
-                    {/* Dashboard */}
-                    <div className="mt-8 pt-6 border-t border-gray-200">
-                        <NavLink
-                            to="/dashboard"
-                            className={({ isActive }) =>
-                                `flex items-center justify-center gap-3 font-semibold py-3 rounded-xl transition-colors duration-200 ${isActive ? "bg-indigo-700 text-white" : "bg-indigo-600 hover:bg-indigo-700 text-white"}`
-                            }
-                        >
-                            <FaUserCircle />
-                            Go to Dashboard
-                        </NavLink>
-                    </div>
+
 
                     {/* Sidebar Footer */}
                     <div className="mt-10 text-center">
